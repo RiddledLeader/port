@@ -1,0 +1,7 @@
+.container{
+    display: grid;
+    grid-template-columns: minmax(320px, auto);
+    grid-template-rows: repeat(5, auto);
+    align-content: space-evenly;
+}
+
