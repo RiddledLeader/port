@@ -19,6 +19,9 @@
     }
 }
 }
+h2{
+    font-size: 2rem;
+}
 .container{
     text-align: center;
 }
@@ -35,58 +38,197 @@
 }
 .Skills{
     border: .5em solid white;
-    color: white;
+    color: black;
     text-align: center;
     background-color: transparent;
     margin-top: -0.5em;
     
 }
 .skill1{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 16em;
+    margin-top: 4em;
+   
 }
 .skill2{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 11em;
+    
 }
 .skill3{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 8em;
+   
 }
 .skill4{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 14em;
+    margin-top: 1em;
+    
 }
 .skill5{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 15em;
+    margin-top: 2em;
+   
 }
 .skill6{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 10em;
+    margin-top: 1em;
+  
 }
 .skill7{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 10em;
+    margin-top: -.5em;
+  
 }
 .skill8{
-    min-width: 70%;
+    min-width: 75px;
+    max-width: 10em;
+    
+   
 }
 .skill9{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 17em;
+    margin-top: 1em;
+  
 }
 
 .skill10{
-    min-width: 70%;
+    min-width: 10px;
+    max-width: 14em;
+  
 }
 .resume-box{
     border: .5em solid white;
     color: black;
     text-align: center;
     background-color: transparent;
+    margin-top: -.5em;
 }
 .Projects{
     border: .5em solid white;
-    color: white;
+    color: black;
     text-align: center;
     background-color: transparent;
+    margin-top:-.5em;
 }
 
 .SkillsGrid {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+}
+.tired{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;    
+}
+.Project1{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 10em;
+    height: 12em ;
+    margin-bottom: 1em;
+}
+.project1{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.Project2{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 10em;
+    height: 12em ;
+    margin-bottom: 1em;
+}
+.project2{
+    color: black;
+    text-decoration: none;
+}
+.Project3{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 10em;
+    height: 12em ;
+    margin-bottom: 1em;
+}
+.project3{
+    color: black;
+    text-decoration: none;
+}
+.Project4{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 10em;
+    height: 12em ;
+    margin-bottom: 1em;
+}
+.project4{
+    color: black;
+    text-decoration: none;
+}
+.woof{
+    text-align: center;
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em; 
+}
+
+.LinkedIn{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    width: 11em;
+    height: 8em ;
+    margin-bottom: 1em;
+}
+
+.GitHub{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    width: 11em;
+    height: 8em ;
+    margin-bottom: 1em; 
+}
+
+.Gmails{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    width: 11em;
+    height: 8em ;
+    margin-bottom: 1em;
 }
