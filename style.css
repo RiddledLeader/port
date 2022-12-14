@@ -1,0 +1,317 @@
+@media only screen and (min-width: 320px)
+{
+
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+html {
+	height: 2000px;
+	background-color: rgb(255, 0, 0);
+	background-image: url("images/Famous-Greek-Paintings-of-Gods.webp");
+	background-size: 100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+	}
+body {
+    height: 100%;
+	background-image: linear-gradient(hsl(10,90,66), transparent 70%);
+	background-size: 100% 100%;
+	mix-blend-mode: difference;
+}
+h2{
+    font-size: 2rem;
+}
+.container{
+    text-align: center;
+}
+.About{
+    border: .5em solid white;
+    color: white;
+    background-color: transparent;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+.met {
+    width: 8.67em;
+    border-radius: 1em;
+    opacity: 100%;
+    border: ridge;
+}
+.Skills{
+    border: .5em solid white;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    margin-top: -0.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+.skill1{
+    min-width: 10px;
+    max-width: 8em;
+    margin-top: .5em;
+   
+}
+.skill2{
+    min-width: 10px;
+    max-width: 4.45em;
+    
+}
+.skill3{
+    min-width: 10px;
+    max-width: 3.25em;
+   
+}
+.skill4{
+    min-width: 10px;
+    max-width: 6em;
+    margin-top: 1em;
+    
+}
+.skill5{
+    min-width: 10px;
+    max-width: 7em;
+    margin-top: 1em;
+   
+}
+.skill6{
+    min-width: 10px;
+    max-width: 5.5em;
+    margin-top: auto;
+  
+}
+.skill7{
+    min-width: 10px;
+    max-width: 4em;
+  
+}
+.skill8{
+    min-width: 55px;
+    max-width: 5em;
+    
+   
+}
+.skill9{
+    min-width: 10px;
+    max-width: 7.4em;
+  
+}
+
+.skill10{
+    min-width: 10px;
+    max-width: 6em;
+  
+}
+.resume-box{
+    border: .5em solid white;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    margin-top: -.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+.Projects{
+    border: .5em solid white;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    margin-top:-.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.SkillsGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.tired{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;    
+}
+.Project1{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 10em;
+    height: 12em ;
+    margin-bottom: 1em;
+}
+.project1{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.Project2{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 10em;
+    height: 12em ;
+    margin-bottom: 1em;
+}
+.project2{
+    color: white;
+    text-decoration: none;
+}
+.Project3{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 10em;
+    height: 12em ;
+    margin-bottom: 1em;
+}
+.project3{
+    color: white;
+    text-decoration: none;
+}
+.up{
+    margin-top: 0em;
+}
+.Project4{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 10em;
+    height: 12em ;
+    margin-bottom: 1em;
+}
+.project4{
+    color: white;
+    text-decoration: none;
+}
+.woof{
+    text-align: center;
+    color: white
+}
+.outro{
+    color: white
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em; 
+}
+
+.LinkedIn{
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    width: 1.5em;
+    height: auto;
+    margin-bottom: -.22em;
+    border-radius: 3em;
+}
+
+.GitHub{
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    width: 2em;
+    height: auto;
+    margin-bottom: -.22em;
+}
+
+.Gmails{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    width: 11em;
+    height: 8em ;
+}
+#cubic {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    padding: 0 20px;
+    -webkit-perspective: 300px;
+    -moz-perspective: 300px;
+    -ms-perspective: 300px;
+    -o-perspective: 300px;
+    perspective: 280px;
+}
+
+#cubic span {
+    display: block;
+    background: white;
+    padding: 20px 50px;
+    top: 0;
+    transition: .4s all ease;
+    -webkit-transform-origin:50% 0;
+    -moz-transform-origin:50% 0;
+    -ms-transform-origin:50% 0;
+    -o-transform-origin:50% 0;
+    transform-origin:50% 0;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-style:preserve-3d;
+    -moz-transform-style:preserve-3d;
+    -ms-transform-style:preserve-3d;
+    -o-transform-style:preserve-3d;
+    transform-style:preserve-3d;
+}
+
+#cubic:hover span {
+    background: rgb(30, 0, 255);
+    -webkit-transform: translate3d(0px,0px,-60px) rotateX(90deg);
+    -moz-transform: translate3d(0px,0px,-60px) rotateX(90deg);
+    -ms-transform: translate3d(0px,0px,-60px) rotateX(90deg);
+    -o-transform: translate3d(0px,0px,-60px) rotateX(90deg);
+    transform: translate3d(0px,0px,-60px) rotateX(90deg);
+}
+
+#cubic span:after {
+    content: attr(title);
+    display: block;
+    width: 100%;
+    padding: 20px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: .8s all ease;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: translate3d(0px, 100%,0) rotateX(-90deg);
+    -moz-transform: translate3d(0px, 100%,0) rotateX(-90deg);
+    -ms-transform: translate3d(0px, 100%,0) rotateX(-90deg);
+    -o-transform: translate3d(0px, 100%,0) rotateX(-90deg);
+    transform: translate3d(0px, 100%,0) rotateX(-90deg);
+}
+
+#cubic:hover span:after {
+    background: rgb(252, 106, 106);
+
+}
