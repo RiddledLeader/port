@@ -11,7 +11,7 @@ html {
 	height: 2000px;
 	background-color: rgb(255, 0, 0);
 	background-image: url("images/Famous-Greek-Paintings-of-Gods.webp");
-	background-size: 100% auto;
+	background-size: 250% auto;
 	background-position: top center;
 	background-attachment: fixed;
 	}
@@ -23,6 +23,12 @@ body {
 }
 h2{
     font-size: 2rem;
+}
+.dogg{
+    text-align: left;
+}
+.titleName{
+    color: #fff;
 }
 .container{
     text-align: center;
@@ -313,5 +319,65 @@ h2{
 
 #cubic:hover span:after {
     background: rgb(252, 106, 106);
+}
 
+.form{
+    border: 2px solid white;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    width: 18em;
+    height: 25em ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1em;
+}
+.field{
+    margin-top: .5em;
+}
+.form-control{
+    width: 13.3em;
+    height: 2em;
+}
+.form-control2{
+    width: 13.3em;
+}
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+}
+.manman{
+    width: 10.5em;
+    height: 3em;
+    text-align: center;
+}
+.butt{
+    background: transparent;
+    border: none;
+}
+@media only screen and (min-width: 1000px)
+{
+    html {
+        height: 2000px;
+        background-color: rgb(255, 0, 0);
+        background-image: url("images/Famous-Greek-Paintings-of-Gods.webp");
+        background-size: 100% auto;
+        background-position: top center;
+        background-attachment: fixed;
+        }
+}
+@media only screen and (min-width: 500px)
+{
+    html {
+        height: 2000px;
+        background-color: rgb(255, 0, 0);
+        background-image: url("images/Famous-Greek-Paintings-of-Gods.webp");
+        background-size: 150% auto;
+        background-position: top center;
+        background-attachment: fixed;
+        }
 }
